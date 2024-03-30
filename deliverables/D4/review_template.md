@@ -1,21 +1,15 @@
 ## D4 - Project Review
-
-Please fill in the template below. Some suggestions have been provided to help you understand how to answer each segment.
-
-Before submission, please replace the suggestions (in italics) with your answers. You can keep the prompts though.
-
-### Project Name: _Enter project name_
-### Team Name, Team Number: _Enter team name and number who the project belongs to_
-### Github Link: _Enter the github link to the project_
+### Project Name: EduNexus
+### Team Name, Team Number: EduNexus, Team 37
+### Github Link: Enter the github link to the project_](https://github.com/csc301-2024-s/deliverable-1-37-edunexus)
 
 ### Project Summary:
-_Provide a short summary of the project. Capture details like what problem it aims to solve and what are the key contributions of the project._
 EduNexus is a desktop application designed to simplify educational administration for schools in underprivileged areas by automating student report generation and grade management. It tackles challenges like high student-to-teacher ratios and limited resources. The key contributions include automated report generation, in-depth performance analysis, secure data management, and intuitive visual analytics. It is designed for cross-platform compatibility, prioritizing user-friendliness and offline functionality to ensure accessibility and ease of use regardless of technological infrastructure. These features collectively aim to reduce the administrative burden on educators, facilitate tailored educational support, and ensure that EduNexus is a valuable tool for schools facing resource limitations.
 
 ### Introduction & Overview of the problem and the product:
 In reviewing EduNexus, it was evident that the project adeptly addresses the significant challenges faced by schools in underprivileged regions, such as high student-to-teacher ratios and limited resources, by automating student report generation and grade management. The overview provided clear insights into EduNexus as an educational support application designed to streamline administrative tasks and enhance educational administration with features like automated report cards, performance analysis, and secure data management. Its differentiation from existing solutions is marked by its focus on offline functionality, ease of use, and optimization for low-resource settings, targeting specific needs that are not fully met by current educational management systems.
 
-For suggestions, updating the README to reflect the current state of EduNexus will enhance the clarity of the project. Specifically, it's important to correct the section that mentions a bug where all teachers are assigned to the same classes—since this issue has been resolved, as indicated in the demo video. Instead, the README should highlight any existing bugs or limitations that are currently pertinent to the application's functionality, as discussed in the video. This adjustment will ensure that users and contributors have an accurate understanding of the project's status and can contribute more effectively to its development or utilize the application more efficiently. This approach not only improves transparency but also aligns the documentation with the project's progress, facilitating better engagement from the community and users.
+For suggestions, updating the README to reflect the current state of EduNexus will enhance the clarity of the project. Specifically, it's important to correct the section that mentions a bug where all teachers are assigned to the same classes—since this issue has been resolved, as indicated in the demo video. Instead, the README should highlight any existing bugs or limitations that are currently pertinent to the application's functionality, as discussed in the video. While linking to the issues section on GitHub provides a dynamic view of ongoing concerns, summarizing the current critical issues within the README itself offers immediate clarity to users and contributors about what to expect.
 
 ### Demo of the application:
 The EduNexus demo presents its ideas clearly and concisely, effectively outlining the application's purpose and its solutions for schools in underprivileged areas. The demonstration covers key features, such as automated report card generation, performance analysis, and visual analytics, showcasing how the application streamlines administrative tasks and enhances educational management. The walkthrough from login to specific functionalities, including editing grades and visualizing class statistics, provides a solid understanding of the application's capabilities and user interface.
@@ -36,8 +30,8 @@ The two areas that causes confusion is the license information and the bug descr
 The instructions is very easy to follow, and I was able to install and start the application without any errors. The UI of the application representative is the same as the project when running locally. However, I wasn't able to run the tests using ``npm run wdio``. The error messages say that ``Electron app is not installed``. Including a section in your README about handling specific error messages, such as "Electron app is not installed," can greatly aid users in troubleshooting common issues they might encounter. This addition ensures that users are aware of the dependencies and prerequisites needed to successfully run your application and its associated commands. Since I wasn't able to see and run the tests, I could not comment on whether edge cases are considered for this application. 
 
 Additional Suggestions: Including an estimated duration for the npm install command in the README documentation can indeed be a helpful addition, especially for new users who might not be familiar with the process. While it's true that installation times can vary widely depending on the user's internet connection and computer specifications, providing a rough estimate can set expectations and help users plan their setup process more effectively.
-### Misc.:
 
+### Misc.:
 Refining the UI to distribute functionalities contextually can significantly improve usability. Here is a image of your current UI for the admin access.
 ![Alt text](./current.png)
 
